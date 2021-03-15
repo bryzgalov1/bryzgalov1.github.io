@@ -1,2 +1,2 @@
-# dbryzgalov.github.io
-dbryzgalov.github.io
+# bryzgalov1.github.io
+bryzgalov1.github.io

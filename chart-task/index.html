@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+
+    <style>
+        svg {
+            display: block;
+        }
+
+        circle {
+            cursor: pointer;
+        }
+
+        .root {
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .div-text>div {
+            position: relative;
+        }
+
+        .div-text>div>div {
+            width: 115px;
+            position: absolute;
+            color: #000;
+            font-size: 12px;
+            line-height: 12px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="dist/data.js"></script>
+    <script src="dist/draw.js"></script>
+    <script src="dist/main.js"></script>
+</body>
+
+</html>

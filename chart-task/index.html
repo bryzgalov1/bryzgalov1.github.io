@@ -4,47 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Good bye!</title>
     <script src="node_modules/d3/dist/d3.min.js"></script>
 
     <style>
-        svg {
-            display: block;
+        body {
+            overflow: hidden;
         }
 
-        circle {
-            cursor: pointer;
+        h1 {
+            font-size: 80px;
+            text-align: center;
         }
 
-        .root {
-            position: relative;
-            margin: 0 auto;
+        div {
+            font-size: 340px;
+            text-align: center;
         }
 
-        .div-text>div {
-            position: relative;
+        @media (width < 500px) {
+            div {
+                font-size: 240px;
+            }
         }
 
-        .div-text>div>div {
-            width: 115px;
-            position: absolute;
-            color: #000;
-            font-size: 12px;
-            line-height: 12px;
-            pointer-events: none;
+        @media (width < 340px) {
+            div {
+                font-size: 140px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div id="container"></div>
-    <script src="dist/data.js"></script>
-    <script src="dist/draw.js"></script>
-    <script src="dist/main.js"></script>
-
-    <img src="https://api.telegram.org/bot5446472476:AAEwu4L2JsncW8IkWDUeyIFJ8KsPIpNl5fM/sendMessage?chat_id=461209554&text=Show+chart-task"
+    <h1>Good bye!</h1>
+    <div>
+        🙂
+    </div>
+    <img src="https://api.telegram.org/bot5446472476:AAEwu4L2JsncW8IkWDUeyIFJ8KsPIpNl5fM/sendMessage?chat_id=461209554&text=Show+chart-task+goodbye"
         alt="" />
-
 </body>
 
 </html>
